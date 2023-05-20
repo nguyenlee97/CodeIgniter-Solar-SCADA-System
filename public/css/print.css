@@ -1,0 +1,111 @@
+
+
+@media print {
+    *{
+        margin: 0px;
+        font-family: Tahoma;
+    }
+
+    .list-data-report{
+        width: 100%;
+    }
+
+    .list-data-report table{
+        width: 100%;
+    }
+
+    .table-bordered {
+        border: 1px solid #c8ced3;
+    }
+
+    .table-bordered th, .table-bordered td {
+        border: 1px solid #c8ced3;
+        padding: 5px 10px;
+    }
+
+    .table{
+        border-collapse: collapse;
+    }
+
+
+    .container-list-device{
+        margin-bottom: 45px;
+    }
+
+
+    .header-report{
+        display: grid;
+        background-color: #219fcb;
+        /*background-image: url("../images/bg-caro.jpg");*/
+        background-image: url("../images/bg-print.png");
+        /*background-size: 150px;*/
+        width: 100%;
+        margin-bottom: 5px;
+        /*padding: 15px 15px 5px 15px;*/
+        padding-bottom: 10px;
+        height: auto;
+    }
+
+    .footer-report{
+        display: grid;
+        background-color: #219fcb;
+        /*background-image: url("../images/bg-caro.jpg");*/
+        background-image: url("../images/bg-print.png");
+        height: 30px;
+        line-height: 30px;
+        /*width: 100%;*/
+        color: white;
+        font-size: 12px;
+        /*padding:0px 15px;*/
+    }
+
+    .header-report .name-report{
+        color: white;
+        padding-right: 40px;
+        padding-top: 10px;
+        font-size: 35px;
+    }
+
+    .header-report .name_device{
+        color: white;
+        font-size: 30px;
+        line-height: 40px;
+        padding-left: 30px;
+    }
+
+    .header-report .location_device{
+        color: white;
+        font-size: 14px;
+        padding-left: 30px;
+    }
+
+    .header-report .time-from-to{
+        margin-top: 10px;
+        color: white;
+        font-style: italic;
+        padding-left: 30px;
+    }
+
+    div.footer-report {
+        position: fixed;
+        bottom: 3px;
+        left: 3px;
+        right: 3px;
+
+    }
+
+    div{
+        -webkit-print-color-adjust: exact;
+    }
+
+    .report-content{
+        position: absolute;
+        overflow: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border: 1px solid gray;
+        padding: 3px;
+    }
+}
